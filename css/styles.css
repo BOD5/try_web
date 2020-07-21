@@ -1,0 +1,36 @@
+html, body {
+	padding : 0;
+	margin : 0;
+}
+.layout__topbar {
+    background-color : purple;
+}
+
+.logo {
+	background-color : inherit;
+    float: left; /* Обтекание по правому краю */
+	width: 10%;
+}
+
+.top_title {
+	background-color : inherit;
+	float: left;
+	width: 60%;	
+	text-align: center;
+}
+
+.top_data {
+	background-color : inherit;
+	float: left;
+	width: 30%;
+}
+
+figure{
+	padding : 0;
+	margin : 0;
+}
+figure img {
+	padding : 0;
+	margin : 0;	
+	object-fit: cover;
+}
