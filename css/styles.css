@@ -23,12 +23,23 @@ html, body {
 .top_data {
 	background-color : inherit;
 	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;	
+}
+
+.data_image img {
+	padding : 0;
+	width: 80px;
+  height: 80px;
+	margin : 0;	
 }
 
 figure{
 	padding : 0;
 	margin : 0;
 }
+
 figure img {
 	padding : 0;
 	width: 80px;
