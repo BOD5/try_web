@@ -28,11 +28,12 @@ html, body {
 	justify-content: flex-start;	
 }
 
-.data_image img {
-	padding : 0;
+.data_image img, figure img {
+	margin: auto;
 	width: 80px;
   height: 80px;
-	margin : 0;	
+	display: inline-block;
+	vertical-align: middle;
 }
 
 figure{
@@ -40,9 +41,9 @@ figure{
 	margin : 0;
 }
 
-figure img {
+/*figure img {
 	padding : 0;
 	width: 80px;
   height: 80px;
 	margin : 0;	
-}
+}*/
