@@ -3,25 +3,25 @@ html, body {
 	margin : 0;
 }
 .layout__topbar {
-    background-color : purple;
+  background-color : purple;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;	
 }
 
 .logo {
-	background-color : inherit;
-    float: left; /* Обтекание по правому краю */
+	background-color : inherit;  
 	width: 10%;
 }
 
 .top_title {
 	background-color : inherit;
-	float: left;
-	width: 60%;	
+	width: 60%;
 	text-align: center;
 }
 
 .top_data {
 	background-color : inherit;
-	float: left;
 	width: 30%;
 }
 
@@ -31,6 +31,7 @@ figure{
 }
 figure img {
 	padding : 0;
+	width: 80px;
+  height: 80px;
 	margin : 0;	
-	object-fit: cover;
 }
