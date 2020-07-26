@@ -91,3 +91,39 @@ html, body {
 	bottom: 0;	
 	width: 160px;
 }
+
+.content {
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.refresh {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+.refresh_butt {
+	margin: 7px;
+	width: 30px;
+	height: 30px;
+	border-radius: 75px;
+	font-size: 25px;
+	border: none;
+	background-color: purple;
+	cursor: pointer;
+}
+
+.add_butt {
+	margin: 7px;
+	height: 30px;
+	width: 350px;
+	border:none;
+	font-size: 30px;
+	background-color: purple;
+	position: fixed;
+	right: 0%;
+}
