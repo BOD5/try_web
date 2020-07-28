@@ -92,6 +92,34 @@ html, body {
 	width: 160px;
 }
 
+.dropdown {
+	position: relative; /* Относительное позиционирование */
+
+ }
+
+ .dropdown input, .dropdown ul { 
+	 display: none; /* Прячем */ 
+	}
+ 
+ .dropdown label {
+	padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+ }
+
+ .dropdown ul {
+	position: absolute; /* Абсолютное позиционирование */
+	left: 0; top: 2em; /* Положение меню */
+	margin: 0; padding: 5px; /* Убираем отступы и поля */	
+	background: whitesmoke; /* Цвет фона */
+ }
+
+ .dropdown :checked ~ ul {
+	display: inline-block; /* Показываем меню */
+ }
+
 .content {
 	margin: 10px;
 	display: flex;
