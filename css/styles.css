@@ -110,9 +110,9 @@ html, body {
  }
 
  .dropdown ul {
-	position: absolute; /* Абсолютное позиционирование */
-	left: 0; top: 2em; /* Положение меню */
-	margin: 0; padding: 5px; /* Убираем отступы и поля */	
+	position: relative; /* релативное позиционирование */
+	left: 0; top: 0; /* Положение меню */
+	margin: 0; padding: 0px; /* Убираем отступы и поля */	
 	background: whitesmoke; /* Цвет фона */
  }
 
