@@ -79,7 +79,7 @@ html, body {
 }
 
 .sidenav li:hover {
-	background-color: yellow;
+	background-color: purple;
 }
 
 .left_bottom_button {
@@ -117,6 +117,7 @@ html, body {
 	position: relative; /* релативное позиционирование */
 	left: 4px; top: 0px; /* Положение меню */
 	margin: 0; padding: 0px; /* Убираем отступы и поля */	
+	width: 100%;
 	background: whitesmoke; /* Цвет фона */
  }
 
