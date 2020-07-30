@@ -78,6 +78,10 @@ html, body {
 	list-style-type: none;
 }
 
+.sidenav li:hover {
+	background-color: yellow;
+}
+
 .left_bottom_button {
 	background-color: green;
 	border: none;
